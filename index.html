@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xanthe Studio - Luxury Nails & Beauty</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom_styles.css">
+
+    <style>
+        /* Extra inline styles for the scroll layout */
+        section {
+            scroll-margin-top: 100px;
+            /* Offset for fixed header */
+        }
+
+        .section-divider {
+            width: 100%;
+            height: 1px;
+            background-color: var(--color-border);
+            margin: 0 auto;
+            max-width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="logo">
+            <a href="#">
+                <img src="logo.jpg" alt="Xanthe Studio Logo" style="height: 50px; width: auto; vertical-align: middle;">
+            </a>
+        </div>
+
+        <button class="mobile-toggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="#nagels">Nagels</a></li>
+                <li><a href="#wenkbrauwen">Wenkbrauwen</a></li>
+                <li><a href="#wimpers">Wimpers</a></li>
+                <li><a href="#gezicht">Gezicht</a></li>
+                <li><a href="https://vev.co/xanthe-studio-nl" target="_blank" class="nav-btn-highlight">Boek Nu</a></li>
+                <!-- Language Switcher -->
+                <li class="lang-item current-lang"><a href="#">NL</a></li>
+                <li class="lang-item"><a href="#">EN</a></li>
+                <li class="lang-item"><a href="#">ES</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+
+
+        <!-- Hero Section (Re-introduced & Styled) -->
+        <section class="hero-new">
+            <div class="hero-content">
+                <span class="subhead">BEAUTY & WELLNESS</span>
+                <h1>Welkom bij <br> <i>Xanthe Studio</i></h1>
+                <p>Bij ons draait alles om verzorging, ontspanning en een mooie uitstraling. Of je nu je nagels wilt
+                    laten verzorgen, wenkbrauwen wilt stylen of genieten van een facial – wij zorgen ervoor dat je
+                    helemaal straalt!</p>
+                <div class="hero-buttons">
+                    <a href="https://vev.co/xanthe-studio-nl" target="_blank" class="btn-primary">BOEK JE AFSPRAAK</a>
+                    <a href="#contact" class="btn-secondary">NEEM CONTACT OP</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">SCROLL <span class="line"></span></div>
+        </section>
+
+        <!-- Services Grid (Visual Navigation) -->
+        <section class="services-grid-section">
+            <div class="section-header">
+                <span class="subhead-small">ONZE DIENSTEN</span>
+                <h2>Onze Behandelingen</h2>
+                <p>Xanthe Studio zorgt ervoor dat je je op je best voelt, met aandacht voor detail en persoonlijke
+                    service.</p>
+            </div>
+
+            <div class="grid-container">
+                <!-- Card 1: Nagels -->
+                <a href="#nagels" class="card-item">
+                    <div class="card-bg"
+                        style="background-image: url('https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=600&q=80');">
+                    </div>
+                    <div class="card-overlay"></div>
+                    <div class="card-text">
+                        <h3>Nagels</h3>
+                        <p>BIAB, gelpolish en nail art voor perfecte nagels.</p>
+                    </div>
+                </a>
+
+                <!-- Card 2: Wenkbrauwen -->
+                <a href="#wenkbrauwen" class="card-item">
+                    <div class="card-bg"
+                        style="background-image: url('https://images.unsplash.com/photo-1597225244660-1cd128c64284?auto=format&fit=crop&w=600&q=80');">
+                    </div>
+                    <div class="card-overlay"></div>
+                    <div class="card-text">
+                        <h3>Wenkbrauwen</h3>
+                        <p>Brow lamination, shapen en verven voor de perfecte look.</p>
+                    </div>
+                </a>
+
+                <!-- Card 3: Wimpers -->
+                <a href="#wimpers" class="card-item">
+                    <div class="card-bg"
+                        style="background-image: url('https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=600&q=80');">
+                    </div>
+                    <div class="card-overlay"></div>
+                    <div class="card-text">
+                        <h3>Wimpers</h3>
+                        <p>Lash lift en verven voor natuurlijke, volle wimpers.</p>
+                    </div>
+                </a>
+
+                <!-- Card 4: Gezicht -->
+                <a href="#gezicht" class="card-item">
+                    <div class="card-bg"
+                        style="background-image: url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80');">
+                    </div>
+                    <div class="card-overlay"></div>
+                    <div class="card-text">
+                        <h3>Facials</h3>
+                        <p>Professionele gezichtsverzorging voor ultieme ontspanning.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="nagels" class="services-content" style="padding: 100px 20px; max-width: 800px; margin: 0 auto;">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <h2>Nagels</h2>
+                <p>Perfectie tot in de vingertoppen.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="service-block" style="margin-bottom: 50px;">
+                <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&q=80"
+                    alt="BIAB Nails" class="service-detail-img">
+                <h3>BIAB & <i>Gelpolish</i></h3>
+                <p>Onze "Builder In A Bottle" (BIAB) behandeling is ontworpen om de natuurlijke nagel te versterken en
+                    te laten groeien. Gecombineerd met onze premium gelpolish kleuren, geniet je van wekenlang perfecte
+                    nagels zonder chippen.</p>
+                <ul style="list-style: none; padding: 0; margin-top: 20px; color: var(--color-text-light);">
+                    <li>• BIAB Treatment (Natuurlijk) - €55</li>
+                    <li>• BIAB + Gelpolish Color - €65</li>
+                    <li>• Gelpolish Manicure - €45</li>
+                </ul>
+            </div>
+
+            <div class="service-block" style="margin-bottom: 50px;">
+                <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=600&q=80"
+                    alt="Nail Art" class="service-detail-img">
+                <h3>Nail Art & <i>Couture</i></h3>
+                <p>Van subtiele minimalistische lijnen tot uitgebreide handgeschilderde designs. Kies uit onze levels om
+                    jouw unieke stijl te creëren.</p>
+                <ul style="list-style: none; padding: 0; margin-top: 20px; color: var(--color-text-light);">
+                    <li>• Level 1: Minimalist (Dots, Lines) - +€10</li>
+                    <li>• Level 2: French, Ombre, Babyboom - +€15</li>
+                    <li>• Level 3: Custom Design - +€25</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Wenkbrauwen Section -->
+        <section id="wenkbrauwen" class="services-content"
+            style="padding: 100px 20px; max-width: 800px; margin: 0 auto;">
+            <!-- Removed complex full-width hack since background is now on body -->
+            <div style="text-align: center; margin-bottom: 60px;">
+                <h2>Wenkbrauwen</h2>
+                <p>De architectuur van je gezicht.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="service-block" style="margin-bottom: 50px;">
+                <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=600&q=80"
+                    alt="Brow Shaping" class="service-detail-img">
+                <h3>Brow Shaping & <i>Tinting</i></h3>
+                <p>Wij creëren de perfecte vorm die past bij jouw gezichtsstructuur. Met wax, tweezer en premium
+                    verf accentueren we jouw natuurlijke schoonheid. Voor een vollere look gebruiken we hybride verf
+                    die tot 7 weken op de haartjes blijft.</p>
+                <ul style="list-style: none; padding: 0; margin-top: 20px; color: var(--color-text-light);">
+                    <li>• Brow Shaping - €25</li>
+                    <li>• Shaping & Tinting (Regular) - €35</li>
+                    <li>• Hybrid Brows (Skin Stain) - €45</li>
+                </ul>
+            </div>
+
+            <div class="service-block" style="margin-bottom: 50px;">
+                <img src="https://images.unsplash.com/photo-1644026330739-17ce28929acb?auto=format&fit=crop&w=600&q=80"
+                    alt="Brow Lamination" class="service-detail-img">
+                <h3>Brow <i>Lamination</i></h3>
+                <p>De ultieme "fluffy brow" look. We liften en fixeren de haartjes in de gewenste richting voor een
+                    volle, geborstelde look die 6-8 weken blijft zitten. Inclusief shaping en voeding.</p>
+                <ul style="list-style: none; padding: 0; margin-top: 20px; color: var(--color-text-light);">
+                    <li>• Brow Lamination Basic - €55</li>
+                    <li>• Brow Lamination + Tint - €65</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Wimpers Section -->
+        <section id="wimpers" class="services-content reveal"
+            style="padding: 100px 20px; max-width: 800px; margin: 0 auto;">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <h2>Wimpers</h2>
+                <p>Open je blik. Natuurlijk en intens.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="service-block" style="margin-bottom: 50px;">
+                <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=600&q=80"
+                    alt="Lash Lift" class="service-detail-img">
+                <h3>Lash Lift (LVL)</h3>
+                <p>Geen mascara of krultang meer nodig. Met een Lash Lift krullen we je eigen wimpers vanaf de wortel,
+                    wat zorgt voor een open en frisse blik. Het resultaat blijft 6 tot 8 weken zichtbaar en is 100%
+                    veilig voor je natuurlijke wimpers.</p>
+                <ul style="list-style: none; padding: 0; margin-top: 20px; color: var(--color-text-light);">
+                    <li>• Lash Lift Basic - €50</li>
+                    <li>• Lash Lift + Tinting - €60</li>
+                    <li>• Lash Tinting Only - €20</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Gezicht Section -->
+        <section id="gezicht" class="services-content reveal"
+            style="padding: 100px 20px; max-width: 800px; margin: 0 auto;">
+            <div style="text-align: center; margin-bottom: 60px;">
+                <h2>Gezichtsbehandelingen</h2>
+                <p>Stralende huid, ultieme ontspanning.</p>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="service-block" style="margin-bottom: 50px;">
+                <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&q=80"
+                    alt="Facial Glow" class="service-detail-img">
+                <h3>The Signature Glow Up</h3>
+                <p>Onze meest populaire behandeling. Een combinatie van dieptereiniging, exfoliatie en intense
+                    hydratatie. We gebruiken hoogwaardige serums en een ontspannende gezichtsmassage om de
+                    doorbloeding te stimuleren en je natuurlijke glow te herstellen.</p>
+                <p style="font-size: 0.9rem; margin-top: 10px;"><i>Ideaal voor: doffe huid, speciale gelegenheden,
+                        ontspanning.</i></p>
+                <div style="margin-top: 15px; font-weight: 500;">90 min - €95</div>
+            </div>
+
+            <div class="service-block" style="margin-bottom: 50px;">
+                <img src="https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=600&q=80"
+                    alt="Facial Detox" class="service-detail-img">
+                <h3>Deep Clean Detox</h3>
+                <p>Focus op zuiverheid. Deze behandeling reinigt de poriën diep, verwijdert onzuiverheden en
+                    kalmeert de huid met een masker op maat. Perfect voor de stadshuid die behoefte heeft aan een
+                    frisse start.</p>
+                <p style="font-size: 0.9rem; margin-top: 10px;"><i>Ideaal voor: onzuivere huid, verstopte
+                        poriën.</i></p>
+                <div style="margin-top: 15px; font-weight: 500;">60 min - €75</div>
+            </div>
+        </section>
+
+        <!-- Booking Section (Integrated Vev) -->
+        <section id="booking" class="reveal" style="padding: 100px 20px; text-align: center; margin-bottom: 40px;">
+            <div class="service-block" style="margin: 0 auto; background: rgba(255,255,255,0.9); padding: 60px 40px;">
+                <h2>Maak een Afspraak</h2>
+                <p style="margin-bottom: 30px;">Klaar om te stralen? Boek eenvoudig online via ons veilige systeem.</p>
+                <div class="section-divider" style="margin-bottom: 40px;"></div>
+
+                <a href="https://vev.co/xanthe-studio-nl" target="_blank" class="btn-luxury"
+                    style="font-size: 1rem; padding: 15px 40px; border-width: 2px;">
+                    Boek Nu Online
+                </a>
+                <p style="margin-top: 20px; font-size: 0.8rem; color: #777;">Je wordt doorgestuurd naar onze
+                    boekingspagina op Vev.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Contact Section (Reference Style) -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <span class="subhead-small">CONTACT</span>
+            <h2>Neem Contact met Ons Op</h2>
+            <p>Heb je vragen of wil je een afspraak maken? Neem gerust contact met ons op.</p>
+        </div>
+
+        <div class="contact-container">
+            <!-- Contact Info (Left) -->
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="icon-circle"><i class="fas fa-map-marker-alt" style="font-style: normal;">📍</i></div>
+                    <div>
+                        <h4>Adres</h4>
+                        <p>Regulusweg 11, 2516 AC Den Haag, Nederland</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon-circle"><i class="fas fa-envelope" style="font-style: normal;">✉️</i></div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>xanthe.studio@proton.me</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon-circle"><i class="fas fa-phone" style="font-style: normal;">📞</i></div>
+                    <div>
+                        <h4>Telefoon</h4>
+                        <p>+31 6 17858030</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="icon-circle"><i class="fas fa-clock" style="font-style: normal;">🕒</i></div>
+                    <div>
+                        <h4>Openingstijden</h4>
+                        <p>Ma - Vr: 9:00 - 18:00<br>Za - Zo: Gesloten</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form (Right) -->
+            <div class="contact-form-wrapper">
+                <!-- 
+                    LET OP: Om dit formulier werkend te maken:
+                    1. Ga naar https://formspree.io/
+                    2. Maak een gratis account en een 'New Form'.
+                    3. Plak jouw unieke Form URL in de action="" hieronder.
+                    Bijvoorbeeld: action="https://formspree.io/f/mdorqgjk"
+                -->
+                <form action="https://formspree.io/f/JOUW_FORM_ID_HIER" method="POST" class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="naam">Naam</label>
+                            <input type="text" id="naam" name="naam" placeholder="je naam" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefoon">Telefoon</label>
+                            <input type="tel" id="telefoon" name="telefoon" placeholder="je telefoonnummer">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="je email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="bericht">Bericht</label>
+                        <textarea id="bericht" name="bericht" rows="5" placeholder="je bericht" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="border: none; cursor: pointer;">VERSTUUR
+                        BERICHT</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer (Reference Style) -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Xanthe Studio</h3>
+                <p>Bij ons draait alles om verzorging, ontspanning en een mooie uitstraling.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>📍 Regulusweg 11, 2516 AC Den Haag</p>
+                <p>✉️ xanthe.studio@proton.me</p>
+                <p>📞 +31 6 17858030</p>
+            </div>
+            <div class="footer-col">
+                <h3>Openingstijden</h3>
+                <p>Ma - Vr: 9:00 - 18:00</p>
+                <p>Za - Zo: Gesloten</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Xanthe Studio. Alle rechten voorbehouden.
+        </div>
+    </footer>
+
+    </footer>
+
+    <script>
+        // Reveal animation on scroll
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+
+        // Mobile Menu Toggle
+        const toggleBtn = document.querySelector('.mobile-toggle');
+        const nav = document.querySelector('.main-navigation');
+
+        if (toggleBtn) {
+            toggleBtn.addEventListener('click', () => {
+                nav.classList.toggle('active');
+                toggleBtn.classList.toggle('open');
+            });
+
+            // Close menu when clicking a link
+            nav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                    toggleBtn.classList.remove('open');
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>
+
